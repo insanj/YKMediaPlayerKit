@@ -15,6 +15,14 @@
 #import "YKDirectVideo.h"
 #import "YKUnKnownVideo.h"
 
+//! Project version number for YKMediaPlayerKit.
+FOUNDATION_EXPORT double YKMediaPlayerKitVersionNumber;
+
+//! Project version string for YKMediaPlayerKit.
+FOUNDATION_EXPORT const unsigned char YKMediaPlayerKitVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <YKMediaPlayerKit/PublicHeader.h>
+
 typedef NS_ENUM(NSUInteger, YKVideoTypeOptions) {
     YKVideoTypeYouTube,
     YKVideoTypeVimeo,
